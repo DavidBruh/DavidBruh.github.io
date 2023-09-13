@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Давид Петренко 28/2</title>
+</head>
+<body>
+<ul>
+    <li><a href="http://kubsu.ru/" target="_blank" >КубГУ</a></li>
+    <li><a href="https://kubsu.ru/" target="_blank" >КубГУ https</a> </li>
+    <li><a href="https://www.youtube.com/watch?v=5QZcOugHQ6s" target="_blank">
+        <img src="nice.jpg"  width="250" height="250" alt="kaif"></a></li>
+    <li><a href="/1.html">Сокращенная ссылка на внутренню страницу</a></li>
+    <li><a href="/index.html">Сокращенная ссылка на главную страницу</a></li>
+    <li><a href="#vniz">Ссылка на фрагмент</a></li>
+    <li><a href="https://kubsu.ru/?id=5834hufndlksja&page=555&name=name" target="_blank">Ссылка с 3мя параметрами</a> </li>
+    <li><a href="https://kubsu.ru/?id=5834hufndlksja" target="_blank">Ссылка с параметром id</a> </li>
+    <li><a href ="./1.html">Относительная ссылка в текущем катологе</a></li>
+    <li><a href="./about/2.html">В каталог about</a></li>
+    <li><a href="./papka/3.html">Уровнем ниже текущего(выше будет на следуещей странице)</a></li>
+    <li><a href="papka/papkaa/4.html">Двумя уровнями выше текущего(аналогично)</a></li>
+    <li> Здесь будет текст для <a href="1.html">контекстной</a> ссылки</li>
+    <li><a href="https://ru.wikipedia.org/wiki/Студент#В_постсоветской_России">Ссылку на фрагмент страницы стороннего сайта</a></li>
+    <li>Ссылка в прямоугольной и круглой области <img src="uhhhhummm.jpg" width="250" height="250" alt="uh" usemap="#ummm">
+        <map name="ummm">
+            <area shape="circle" coords="100,220,73" href="https://youtu.be/i8rmQEPfYNA?si=0RCxCuYGj2tc4YXf" target="_blank" alt="нос">
+        </map>
+        <img src="gosling.jpg" alt="damn" usemap="#damn" width="250" height="250">
+        <map name="damn">
+            <area shape="rect" coords="72,82,302,268" href="https://ru.wikipedia.org/wiki/Драйв_%28фильм%2C_2011%29" target="_blank" alt="TACHILA">
+        </map></li>
+    <li><a href="#!">Ссылка с пустым href</a></li>
+    <li><a>Ссылка без href</a></li>
+    <li>Ссылки в пронумерованном списке<ol>
+        <li><a href="./1.html" title="Первый">Ссылка в списке 1</a></li>
+        <li><a href="./papka/3.html" title="Второй">Ссылка в списке 2</a></li>
+        <li><a href="./about/2.html" title="Третий">Ссылка в списке 3</a></li>
+    </ol></li>
+    <li><a href="papka/3.html" rel="nofollow">Ссылка без доступа к поисковикам</a></li>
+    <li><a href="1.html" rel="noindex">Ссылка запрещенная для индексации поисковиками</a></li>
+    <li><a href="ftp://login:password@http://example.com/main.html/download/kartinka.jpg">Cсылка на файл с авторизацией</a></li>
+</ul>
+<a id="vniz"></a>
+<form method="post" action="/" class="forms">
+    <label>
+        <br />
+        <input placeholder="ФИО" />
+    </label><br />
+    <label>
+        <input type="tel" placeholder="Телефон" />
+    </label><br />
+    <label>
+        <input type="email" placeholder="e-mail" />
+    </label><br />
+    <label>
+        Дата рождения <br/>
+        <input type="date" />
+    </label><br />
+    <label>
+        <input name=sex type="radio" value="male" />
+        Мужской</label>
+    <label>
+        <input name=sex type="radio" value="female" />
+        Женский</label> <br />
+    <label>
+        <br />
+        <select>
+            <option disabled>Любимый язык программирования</option>
+            <option value="Pascal">Pascal</option>
+            <option value="C" >C</option>
+            <option value="C++" >C++</option>
+            <option value="Prolog" >Prolog</option>
+            <option value="JavaScript" >JavaScript</option>
+            <option value="PHP" >PHP</option>
+            <option value="Python" >Python</option>
+            <option value="Java" >Java</option>
+            <option value="Haskel" >Haskel</option>
+            <option value="Clojure" >Clojure</option>
+            <option value="Prolog" >Prolog</option>
+            <option value="Scala" >Scala</option>
+        </select>
+    </label><br />
+    <label>
+        <textarea placeholder="Биография"></textarea>
+    </label><br />
+    <label>
+        С контрактом ознакомился
+        <input type="checkbox">
+    </label><br />
+    <input type="submit" value="Отправить" />
+</form>
+</body>
+</html>
